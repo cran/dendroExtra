@@ -1,10 +1,9 @@
-
 import(ggplot2)
 import(brnn)
 import(reshape2)
 import(oce)
-import(stats)
-importFrom(scales, pretty_breaks)
+importFrom(scales, "pretty_breaks")
+importFrom("stats", "cor", "lm", "qt", "quantile")
 
 export(daily_response)
 export(plot_extreme)
@@ -12,3 +11,4 @@ export(plot_heatmap)
 export(plot_specific)
 export(smooth_matrix)
 export(critical_r)
+export(years_to_rownames)
